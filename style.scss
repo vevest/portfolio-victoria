@@ -16,7 +16,6 @@ main{
 }
 
 
-
 .mob-container{
     display: flex;
     flex-direction: column;
@@ -28,6 +27,11 @@ main{
 @media(min-width: 800px){
     .mob-container{
         display: none;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
     }
 
   
