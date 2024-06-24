@@ -1,3 +1,6 @@
+/*Vi kalder på vores partial side*/
+@use 'partials';
+
 body{
     margin: 0;
     padding: 0;
@@ -28,12 +31,49 @@ main{
     .mob-container{
         display: none;
     }
+    body {
+        overflow: scroll;
+        overflow-x: hidden;
+        height: 100%;
+        margin: 0;
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
 
-    header{
-        display: flex;
-        flex-direction: row;
-    }
+    nav {
+        float: right;
+        background-color: #9301AE;
 
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        li {
+            display: block;
+            margin: 0px 0px 0px 0px;
+            -webkit-writing-mode: vertical-rl;
+            -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+            padding-top: 30px;
+            padding-right: 40px;
+
+    
+    
+            a{
+                text-decoration: none;
+                color: white;
+    
+            }
+    
+          }
+        
+      }
+      
+      
+      
   
 
 

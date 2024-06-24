@@ -1,3 +1,14 @@
+@charset "UTF-8";
+/*Vi kalder på vores partial side*/
+/* VARIABLER vi har lavet vores farver til variabler*/
+@font-face {
+  font-family: "Oswald";
+  src: url(fonts/Oswald/static/Oswald-Bold.ttf);
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url(fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
 body {
   margin: 0;
   padding: 0;
@@ -23,9 +34,34 @@ main {
   .mob-container {
     display: none;
   }
-  header {
+  body {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  nav {
+    float: right;
+    background-color: #9301AE;
+  }
+  nav ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  nav li {
+    display: block;
+    margin: 0px 0px 0px 0px;
+    writing-mode: vertical-rl;
+    padding-top: 30px;
+    padding-right: 40px;
+  }
+  nav li a {
+    text-decoration: none;
+    color: white;
   }
   .web-container {
     display: block;

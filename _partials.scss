@@ -1,0 +1,19 @@
+/* VARIABLER vi har lavet vores farver til variabler*/
+$white: #f7f7f7; 
+$beige: #dfdbd5;
+$black: #111111;
+$blue: #2052B6;
+$pink: #F996D7;
+$grey: #333231;
+
+
+@font-face {
+    font-family: "Oswald";
+    src: url(fonts/Oswald/static/Oswald-Bold.ttf);
+  }
+
+@font-face {
+    font-family: "Quicksand";
+    src: url(fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
