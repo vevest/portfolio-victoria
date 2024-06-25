@@ -14,6 +14,25 @@ body {
   padding: 0;
   background-color: #F8F8F8;
 }
+body h1 {
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 64px;
+}
+body h2 {
+  font-family: "Quicksand";
+  font-weight: lighter;
+  font-size: 36px;
+}
+body h3 {
+  font-family: "Quicksand";
+  font-weight: lighter;
+  font-size: 28px;
+}
+body p {
+  font-family: "Quicksand";
+  font-size: 20px;
+}
 body footer {
   background-color: #96E6FF;
   font-family: "Quicksand";
