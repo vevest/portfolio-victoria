@@ -19,6 +19,9 @@ body footer {
   font-family: "Quicksand";
   font-weight: lighter;
   font-size: 20px;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 main {
