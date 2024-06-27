@@ -21,12 +21,12 @@ body{
     h3{
         font-family: "Quicksand";
         font-weight: lighter;
-        font-size: 28px;
+        font-size: 26px;
     }
 
     p{
         font-family: "Quicksand";
-        font-size: 20px;
+        font-size: 18px;
     }
 
     footer{
@@ -64,13 +64,19 @@ main{
     .mob-container{
         display: none;
     }
+
+    .web-container{
+        display: block;
+    }
+
+
     body {
         overflow: scroll;
         overflow-x: hidden;
         height: 100%;
         margin: 0;
       }
-      ::-webkit-scrollbar {
+    ::-webkit-scrollbar {
         display: none;
       }
 
@@ -93,27 +99,48 @@ main{
             padding-top: 30px;
             padding-right: 40px;
 
-    
-    
+
+
             a{
                 text-decoration: none;
                 color: white;
-    
+
             }
-    
-          }
-        
-      }
-      
-      
-      
-  
 
-
-    .web-container{
-        display: block;
+        }
     }
 
+    
+     .logo{
+        object-fit: cover;
+        width: 20%;
+     } 
+      
+    .box1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 3rem;
+
+        div{
+            grid-column: 1/2;
+            grid-row: 1/2;
+
+            div{
+                background-color: partials.$darkblue;
+                padding: 10px;
+                width: 40%;
+                color: white;
+                font-family: "Quicksand";
+                border-radius: 16px;
+                text-align: center;
+            }
+        }
+
+        img{
+            object-fit: cover;
+            width: 50%;
+        }
+    }
+
+
 }
-
-

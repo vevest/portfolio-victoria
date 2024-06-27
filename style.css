@@ -27,11 +27,11 @@ body h2 {
 body h3 {
   font-family: "Quicksand";
   font-weight: lighter;
-  font-size: 28px;
+  font-size: 26px;
 }
 body p {
   font-family: "Quicksand";
-  font-size: 20px;
+  font-size: 18px;
 }
 body footer {
   background-color: #96E6FF;
@@ -63,6 +63,9 @@ main {
   .mob-container {
     display: none;
   }
+  .web-container {
+    display: block;
+  }
   body {
     overflow: scroll;
     overflow-x: hidden;
@@ -92,7 +95,32 @@ main {
     text-decoration: none;
     color: white;
   }
-  .web-container {
-    display: block;
+  .logo {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 20%;
+  }
+  .box1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3rem;
+  }
+  .box1 div {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .box1 div div {
+    background-color: #0076CC;
+    padding: 10px;
+    width: 40%;
+    color: white;
+    font-family: "Quicksand";
+    border-radius: 16px;
+    text-align: center;
+  }
+  .box1 img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 50%;
   }
 }/*# sourceMappingURL=style.css.map */
