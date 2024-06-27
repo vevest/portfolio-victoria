@@ -83,6 +83,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    height: 100vh;
   }
   nav li {
     display: block;
@@ -94,11 +95,14 @@ main {
   nav li a {
     text-decoration: none;
     color: white;
+    font-family: "Quicksand";
   }
   .logo {
     -o-object-fit: cover;
        object-fit: cover;
     width: 20%;
+    margin-left: 3rem;
+    margin-top: 2rem;
   }
   .box1 {
     display: grid;

@@ -88,6 +88,7 @@ main{
             display: flex;
             flex-direction: column;
             justify-content: space-around;
+            height: 100vh;
         }
 
         li {
@@ -104,6 +105,7 @@ main{
             a{
                 text-decoration: none;
                 color: white;
+                font-family: "Quicksand";
 
             }
 
@@ -114,6 +116,8 @@ main{
      .logo{
         object-fit: cover;
         width: 20%;
+        margin-left: 3rem;
+        margin-top: 2rem;
      } 
       
     .box1{
