@@ -113,12 +113,15 @@ main{
     }
 
     
-     .logo{
-        object-fit: cover;
-        width: 17%;
-        margin-left: 3rem;
-        margin-top: 2rem;
-     } 
+        .logo{
+
+            img{
+                object-fit: cover;
+                width: 17%;
+                margin-left: 3rem;
+                margin-top: 2rem;
+            }
+        } 
       
     .box1{
         display: grid;
@@ -165,6 +168,17 @@ main{
             margin-right: auto;
             margin-bottom: 5rem;
         }
+    }
+
+    .portfolio{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .img1{
+        object-fit:cover;
+        width: 250px;
+        height: 250px;
     }
 
 
