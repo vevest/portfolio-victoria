@@ -80,15 +80,18 @@ main{
         display: none;
       }
 
-    nav {
-        float: right;
-        background-color: #9301AE;
 
+    nav {
+        margin-top: 0;
+       
         ul{
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
+            justify-content: space-between;
             height: 100vh;
+            background-color: #9301AE;
+            float: right;
+            margin-top: 0;
         }
 
         li {
@@ -100,8 +103,24 @@ main{
             padding-top: 30px;
             padding-right: 40px;
 
+            div{
+                width: 93%;
+                .facebook{
+                    img{
+                        object-fit: cover;
+                        width: 47%;
+                    }
+                }
+            
+                .linkedin{
+                    img{
+                        object-fit: cover;
+                        width: 65%;
+                    }
+                }
+            }
 
-
+        
             a{
                 text-decoration: none;
                 color: white;
@@ -110,22 +129,25 @@ main{
             }
 
         }
+
+        
     }
 
     
-        .logo{
+    .logo{
 
-            img{
-                object-fit: cover;
-                width: 17%;
-                margin-left: 3rem;
-                margin-top: 2rem;
-            }
-        } 
+        img{
+            object-fit: cover;
+            width: 20%;
+            margin-left: 3rem;
+            margin-top: 2rem;
+        }
+    } 
       
     .box1{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-top: 2rem;
 
         div{
             grid-column: 1/2;
@@ -140,6 +162,7 @@ main{
             h3{
                 margin-top: 0;
                 margin-bottom: 2rem;
+                color: partials.$darkblue;
             }
             
 
@@ -168,6 +191,12 @@ main{
             margin-right: auto;
             margin-bottom: 5rem;
         }
+    }
+
+    .arrow{
+        width: 52%;
+        margin-top: 1.5rem;
+        margin-bottom: 3rem;
     }
 
     .portfolio{
