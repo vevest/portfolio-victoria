@@ -161,9 +161,8 @@ main {
     -o-object-fit: cover;
        object-fit: cover;
     max-width: 300px;
-    max-width: 300px;
+    height: 300px;
     min-width: 200px;
-    min-height: 200px;
   }
   .purple-box {
     border-style: solid;
