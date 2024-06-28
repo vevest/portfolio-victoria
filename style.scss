@@ -173,12 +173,41 @@ main{
     .portfolio{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 10%;
+        padding-right: 10%;
+
+        p{
+            text-align: center;
+            padding-bottom: 2rem;
+        }
+
+        .portfolio-container{
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 
     .img1{
         object-fit:cover;
-        width: 250px;
-        height: 250px;
+        max-width: 300px;
+        max-width: 300px;
+        min-width: 200px;
+        min-height: 200px;
+    }
+
+    .purple-box{
+        border-style: solid;
+        border-left-color: partials.$purple;
+        border-left-width: 2rem;
+        border-right-color: partials.$beige;
+        border-top-color: partials.$beige;
+        border-bottom-color: partials.$beige;
+
+        h2{
+            text-align: center;
+            padding-bottom: 1.5rem;
+            padding-top: 1.5rem;
+        }
     }
 
 

@@ -146,11 +146,36 @@ main {
   .portfolio {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .portfolio p {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .portfolio .portfolio-container {
+    margin-left: auto;
+    margin-right: auto;
   }
   .img1 {
     -o-object-fit: cover;
        object-fit: cover;
-    width: 250px;
-    height: 250px;
+    max-width: 300px;
+    max-width: 300px;
+    min-width: 200px;
+    min-height: 200px;
+  }
+  .purple-box {
+    border-style: solid;
+    border-left-color: #9301AE;
+    border-left-width: 2rem;
+    border-right-color: #F8F8F8;
+    border-top-color: #F8F8F8;
+    border-bottom-color: #F8F8F8;
+  }
+  .purple-box h2 {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
   }
 }/*# sourceMappingURL=style.css.map */
