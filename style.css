@@ -169,48 +169,77 @@ main {
     margin-right: auto;
     margin-bottom: 5rem;
   }
-  .arrow {
-    width: 52%;
+  .contact-box {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+  }
+  .contact-box .arrow {
+    width: 60%;
     margin-top: 1.5rem;
     margin-bottom: 3rem;
   }
-  .fangmig {
-    background-color: #FFFFFF;
-    padding: 10px;
-    width: 13%;
-    font-family: "Quicksand";
-    border-radius: 6px;
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 5rem;
-    border: solid 2px #3CD0FF;
-  }
-  .fangmig a {
-    color: #3CD0FF;
+  .contact-box #fangmig {
     text-decoration: none;
+    padding-left: 2rem;
+  }
+  .contact-box #fangmig p {
+    font-family: "Quicksand";
+    text-align: center;
+    -webkit-text-stroke: 2px #3CD0FF;
+    color: white;
+    font-size: 30px;
     font-weight: bold;
   }
   .portfolio {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
     gap: 0.5rem;
+  }
+  .portfolio a {
+    text-decoration: none;
   }
   .portfolio p {
     text-align: center;
     padding-bottom: 2rem;
+    color: #0076CC;
+    margin-top: 0.5rem;
   }
   .portfolio .portfolio-container {
     margin-left: auto;
     margin-right: auto;
+    position: relative;
   }
   .img1 {
     -o-object-fit: cover;
        object-fit: cover;
-    max-width: 300px;
-    height: 300px;
-    min-width: 200px;
+    max-width: 270px;
+    height: 270px;
+  }
+  .overlay {
+    position: absolute;
+    height: 215px;
+    width: 270px;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    background-color: #161616;
+    padding-top: 21%;
+  }
+  .overlay:hover {
+    opacity: 60%;
+    transition: 0.5s;
+  }
+  .exit {
+    float: right;
+    margin-top: -10%;
+  }
+  .exit img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 45%;
   }
   .purple-box {
     border-style: solid;
