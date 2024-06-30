@@ -232,8 +232,9 @@ main{
     .portfolio{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 3%;
+        padding-right: 3%;
+        gap: 0.5rem;
 
         p{
             text-align: center;
