@@ -66,6 +66,9 @@ main {
   .web-container {
     display: block;
   }
+  main {
+    height: 100%;
+  }
   body {
     overflow: scroll;
     overflow-x: hidden;
@@ -82,6 +85,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: start;
     height: 100vh;
     background-color: #9301AE;
     float: right;
@@ -142,15 +146,20 @@ main {
     width: 90%;
   }
   .box1 div div {
-    background-color: #0076CC;
+    background-color: #FFFFFF;
     padding: 10px;
-    width: 40%;
-    color: white;
+    width: 63%;
     font-family: "Quicksand";
-    border-radius: 16px;
+    border-radius: 6px;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 5rem;
+    border: solid 2px #0076CC;
+  }
+  .box1 div div a {
+    color: #0076CC;
+    text-decoration: none;
+    font-weight: bold;
   }
   .box1 img {
     -o-object-fit: cover;
@@ -164,6 +173,22 @@ main {
     width: 52%;
     margin-top: 1.5rem;
     margin-bottom: 3rem;
+  }
+  .fangmig {
+    background-color: #FFFFFF;
+    padding: 10px;
+    width: 13%;
+    font-family: "Quicksand";
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    border: solid 2px #3CD0FF;
+  }
+  .fangmig a {
+    color: #3CD0FF;
+    text-decoration: none;
+    font-weight: bold;
   }
   .portfolio {
     display: grid;
